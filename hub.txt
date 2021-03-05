@@ -1,6 +1,6 @@
-hub UCSCHub
-shortLabel UCSC Hub
-longLabel UCSC Genome Informatics Hub for human DNase and RNAseq data
+hub EP_associations
+shortLabel FANTOM5 E-P associations hub
+longLabel Enhancer-promoter associations based on transcriptional co-expression in FANTOM5
 genomesFile genomes.txt
-email genome@soe.ucsc.edu
-descriptionUrl ucscHub.html 
+email rg3016@ic.ac.uk
+descriptionUrl https://raw.githubusercontent.com/radinagg/FANTOM5_EP_associations/master/README.html?token=AGVTDJGBPAMKPUJ4OUK3ZYLAIKBVM
