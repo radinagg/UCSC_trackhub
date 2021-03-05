@@ -1,0 +1,12 @@
+track hg19_sig_EP_pairs
+bigDataUrl https://github.com/radinagg/FANTOM5_EP_associations/blob/master/trackhub/hg19_sig_EP_pairs_10%25FDR_colouredBy_ES.inter.bb
+shortLabel hg19 sig E-P pairs
+longLabel hg19 sig E-P pairs 10% FDR coloured by ES
+type bigInteract
+
+
+track hg19_enhancers
+bigDataUrl https://github.com/radinagg/FANTOM5_EP_associations/blob/master/trackhub/FANTOM5_hg19_enhancers.bb
+shortLabel hg19 enhancers
+longLabel FANTOM5 hg19 enhancers
+type bigBed 

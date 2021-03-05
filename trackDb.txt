@@ -1,3 +1,0 @@
-hg19_sig_EP_pairs_10%FDR_colouredBy_ES.inter.bb - contains significantly associated FANTOM5 enhancer-promoter pairs (10% FDR) in human (coloured by effect size)
-
-FANTOM5_hg19_enhancers.bb - contains the coordinates of human FANTON5 bidirectional enhancers 
