@@ -1,9 +1,20 @@
 track hg19_sig_EP_pairs
 bigDataUrl https://raw.githubusercontent.com/radinagg/UCSC_trackhub/master/hg19/hg19_sig_EP_pairs_10%25FDR_colouredBy_ES.inter.bb
 shortLabel hg19 sig E-P pairs
-longLabel hg19 sig E-P pairs 10% FDR coloured by ES
+longLabel Sig E-P pairs 10% FDR coloured by ES
 type bigInteract
 
+track MicroC_HFF
+bigDataUrl https://raw.githubusercontent.com/radinagg/UCSC_trackhub/master/hg19/hg19_sig_EP_pairs_10%25FDR_colouredBy_IF_HFF.inter.bb
+shortLabel Micro-C HFF
+longLabel Sig E-P pairs coloured by 3D contact (HFF)
+type bigInteract
+
+track MicroC_hESC
+bigDataUrl https://raw.githubusercontent.com/radinagg/UCSC_trackhub/master/hg19/hg19_sig_EP_pairs_10%25FDR_colouredBy_IF_hESC.inter.bb
+shortLabel Micro-C H1-hESC
+longLabel Sig E-P pairs coloured by 3D contact (hESC)
+type bigInteract
 
 track hg19_enhancers
 bigDataUrl https://raw.githubusercontent.com/radinagg/UCSC_trackhub/master/hg19/FANTOM5_hg19_enhancers.bb
