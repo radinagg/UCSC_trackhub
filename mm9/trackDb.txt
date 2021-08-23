@@ -4,6 +4,12 @@ shortLabel mm9 sig E-P pairs
 longLabel Sig E-P pairs 10% FDR coloured by ES
 type bigInteract
 
+track InSituHiC_mESC_46C
+bigDataUrl https://raw.githubusercontent.com/radinagg/UCSC_trackhub/master/mm9/mm9_sig_EP_pairs_10%25FDR_colouredBy_IF_mESC.inter.bb
+shortLabel in situ Hi-C mESC 46C
+longLabel Sig E-P pairs coloured by 3D contact (mESC 46C)
+type bigInteract
+
 track mm9_enhancers
 bigDataUrl https://raw.githubusercontent.com/radinagg/UCSC_trackhub/master/mm9/FANTOM5_mm9_enhancers.bb
 shortLabel mm9 enhancers
