@@ -21,3 +21,45 @@ bigDataUrl https://raw.githubusercontent.com/radinagg/UCSC_trackhub/master/hg19/
 shortLabel hg19 enhancers
 longLabel FANTOM5 hg19 enhancers
 type bigBed 
+
+track GRBs_hg19_galGal4
+bigDataUrl https://raw.githubusercontent.com/radinagg/UCSC_trackhub/master/hg19/Harmston_GRBs_hg19_galGal4.bb
+shortLabel GRBs
+longLabel Human-chicken GRBs (Harmston2017)
+type bigBed 
+
+track human_mouse_HCNE_density
+bigDataUrl https://raw.githubusercontent.com/radinagg/UCSC_trackhub/master/hg19/HCNE_density_hg19_mm10_98pc_50col.bw
+shortLabel Human-mouse HCNE density
+longLabel Human-mouse HCNE density 98% / 50
+type bigWig
+
+track human_mouse_HCNE_coord
+bigDataUrl https://raw.githubusercontent.com/radinagg/UCSC_trackhub/master/hg19/HCNE_hg19_mm10_98pc_50col.bb
+shortLabel Human-mouse HCNEs
+longLabel Human-mouse HCNE coordinates 98% / 50
+type bigBed
+
+track human_dog_HCNE_density
+bigDataUrl https://raw.githubusercontent.com/radinagg/UCSC_trackhub/master/hg19/HCNE_density_hg19_canFam3_100pc_50col.bw
+shortLabel Human-dog HCNE density
+longLabel Human-dog HCNE density 100% / 50
+type bigWig
+
+track human_dog_HCNE_coord
+bigDataUrl https://raw.githubusercontent.com/radinagg/UCSC_trackhub/master/hg19/HCNE_hg19_canFam3_100pc_50col.bb
+shortLabel Human-dog HCNEs
+longLabel Human-dog HCNE coordinates 100% / 50
+type bigBed
+
+track human_chicken_HCNE_density
+bigDataUrl https://raw.githubusercontent.com/radinagg/UCSC_trackhub/master/hg19/HCNE_density_hg19_galGal4_96pc_50col.bw
+shortLabel Human-chicken HCNE density
+longLabel Human-chicken HCNE density 96% / 50
+type bigWig
+
+track human_chicken_HCNE_coord
+bigDataUrl https://raw.githubusercontent.com/radinagg/UCSC_trackhub/master/hg19/HCNE_hg19_galGal4_96pc_50col.bb
+shortLabel Human-chicken HCNEs
+longLabel Human-chicken HCNE coordinates 96% / 50
+type bigBed
