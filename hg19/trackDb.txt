@@ -32,6 +32,8 @@ track human_mouse_HCNE_density
 bigDataUrl https://raw.githubusercontent.com/radinagg/UCSC_trackhub/master/hg19/HCNE_density_hg19_mm10_98pc_50col.bw
 shortLabel Human-mouse HCNE density
 longLabel Human-mouse HCNE density 98% / 50
+color 255,69,0
+visibility full
 type bigWig
 
 track human_mouse_HCNE_coord
