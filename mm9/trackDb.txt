@@ -1,35 +1,58 @@
-track mm9_sig_EP_pairs
-bigDataUrl https://raw.githubusercontent.com/radinagg/UCSC_trackhub/master/mm9/mm9_sig_EP_pairs_10%25FDR_colouredBy_ES.inter.bb
-shortLabel mm9 sig E-P pairs
-longLabel Sig E-P pairs 10% FDR coloured by ES
-type bigInteract
+track mouse_human_HCNE_coord
+bigDataUrl https://raw.githubusercontent.com/radinagg/UCSC_trackhub/master/hg19/HCNE_mm10_hg19_98pc_50col_lifted_to_mm9.bb
+shortLabel Mouse-human HCNEs
+longLabel Mouse-human HCNE coordinates 98% / 50
+color 255,69,0
+visibility dense
+type bigBed
 
-track InSituHiC_mESC_sig
-bigDataUrl https://raw.githubusercontent.com/radinagg/UCSC_trackhub/master/mm9/mm9_sig_EP_pairs_10%25FDR_colouredBy_IF_mESC.inter.bb
-shortLabel in situ Hi-C mESC (sig) 
-longLabel Sig E-P pairs coloured by 3D contact (mESC; Bonev2017)
-type bigInteract
+track mouse_dog_HCNE_coord
+bigDataUrl https://raw.githubusercontent.com/radinagg/UCSC_trackhub/master/hg19/HCNE_mm10_canFam3_96pc_50col_lifted_to_mm9.bb
+shortLabel Mouse-dog HCNEs
+longLabel Mouse-dog HCNE coordinates 96% / 50
+color 255,140,0 
+visibility dense 
+type bigBed
 
-track InSituHiC_46C_NPC_sig
-bigDataUrl https://raw.githubusercontent.com/radinagg/UCSC_trackhub/master/mm9/mm9_sig_EP_pairs_10%25FDR_colouredBy_IF_NPC.inter.bb
-shortLabel in situ Hi-C 46C NPC (sig)
-longLabel Sig E-P pairs coloured by 3D contact (46C NPC; Bonev2017)
-type bigInteract
-
-track InSituHiC_mESC_all
-bigDataUrl https://raw.githubusercontent.com/radinagg/UCSC_trackhub/master/mm9/mm9_all_EP_pairs_10%25FDR_colouredBy_IF_mESC.inter.bb
-shortLabel in situ Hi-C mESC (all)
-longLabel All E-P pairs coloured by 3D contact (mESC; Bonev2017)
-type bigInteract
-
-track InSituHiC_46C_NPC_all
-bigDataUrl https://raw.githubusercontent.com/radinagg/UCSC_trackhub/master/mm9/mm9_all_EP_pairs_10%25FDR_colouredBy_IF_NPC.inter.bb
-shortLabel in situ Hi-C 46C NPC (all)
-longLabel All E-P pairs coloured by 3D contact (46C NPC; Bonev2017)
-type bigInteract
+track mouse_chicken_HCNE_coord
+bigDataUrl https://raw.githubusercontent.com/radinagg/UCSC_trackhub/master/hg19/HCNE_mm10_galGal4_90pc_50col_lifted_to_mm9.bb
+shortLabel Mouse-chicken HCNEs
+longLabel Mouse-chicken HCNE coordinates 90% / 50
+color 255,215,0 
+visibility dense 
+type bigBed
 
 track mm9_enhancers
 bigDataUrl https://raw.githubusercontent.com/radinagg/UCSC_trackhub/master/mm9/FANTOM5_mm9_enhancers.bb
 shortLabel mm9 enhancers
 longLabel FANTOM5 mm9 enhancers
+visibility full
 type bigBed 
+
+track mm9_sig_EP_pairs
+bigDataUrl https://raw.githubusercontent.com/radinagg/UCSC_trackhub/master/mm9/mm9_sig_EP_pairs_10%25FDR_colouredBy_ES.inter.bb
+shortLabel mm9 sig E-P pairs
+longLabel Sig E-P pairs (coloured by ES)
+visibility full
+type bigInteract
+
+track mm9_sig_EP_pairs_with3Dcontact
+bigDataUrl https://raw.githubusercontent.com/radinagg/UCSC_trackhub/master/mm9/mm9_sig_EP_pairs_10%25FDR_colouredBy_ES_filteredByContactScore.inter.bb
+shortLabel mm9 sig E-P pairs with 3D contact
+longLabel Sig E-P pairs supported by 3D contact (coloured by ES) 
+visibility full
+type bigInteract
+
+track inSituHiC_mESC
+bigDataUrl https://raw.githubusercontent.com/radinagg/UCSC_trackhub/master/mm9/mm9_sig_EP_pairs_10%25FDR_colouredBy_IF_mESC.inter.bb
+shortLabel in situ Hi-C mESC
+longLabel Sig E-P pairs (coloured by 3D contact; mESC)
+visibility hide
+type bigInteract
+
+track inSituHiC_NPC
+bigDataUrl https://raw.githubusercontent.com/radinagg/UCSC_trackhub/master/mm9/mm9_sig_EP_pairs_10%25FDR_colouredBy_IF_NPC.inter.bb
+shortLabel in situ Hi-C NPC
+longLabel Sig E-P pairs (coloured by 3D contact; NPC)
+visibility hide
+type bigInteract
