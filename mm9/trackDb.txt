@@ -1,5 +1,5 @@
 track mouse_human_HCNE_coord
-bigDataUrl https://raw.githubusercontent.com/radinagg/UCSC_trackhub/master/hg19/HCNE_mm10_hg19_98pc_50col_lifted_to_mm9.bb
+bigDataUrl https://raw.githubusercontent.com/radinagg/UCSC_trackhub/master/mm9/HCNE_mm10_hg19_98pc_50col_lifted_to_mm9.bb
 shortLabel Mouse-human HCNEs
 longLabel Mouse-human HCNE coordinates 98% / 50
 color 255,69,0
@@ -7,7 +7,7 @@ visibility dense
 type bigBed
 
 track mouse_dog_HCNE_coord
-bigDataUrl https://raw.githubusercontent.com/radinagg/UCSC_trackhub/master/hg19/HCNE_mm10_canFam3_96pc_50col_lifted_to_mm9.bb
+bigDataUrl https://raw.githubusercontent.com/radinagg/UCSC_trackhub/master/mm9/HCNE_mm10_canFam3_96pc_50col_lifted_to_mm9.bb
 shortLabel Mouse-dog HCNEs
 longLabel Mouse-dog HCNE coordinates 96% / 50
 color 255,140,0 
@@ -15,7 +15,7 @@ visibility dense
 type bigBed
 
 track mouse_chicken_HCNE_coord
-bigDataUrl https://raw.githubusercontent.com/radinagg/UCSC_trackhub/master/hg19/HCNE_mm10_galGal4_90pc_50col_lifted_to_mm9.bb
+bigDataUrl https://raw.githubusercontent.com/radinagg/UCSC_trackhub/master/mm9/HCNE_mm10_galGal4_90pc_50col_lifted_to_mm9.bb
 shortLabel Mouse-chicken HCNEs
 longLabel Mouse-chicken HCNE coordinates 90% / 50
 color 255,215,0 
