@@ -70,29 +70,29 @@ visibility full
 type bigBed 
 
 track hg19_sig_EP_pairs
-bigDataUrl https://raw.githubusercontent.com/radinagg/UCSC_trackhub/master/hg19/hg19_sig_EP_pairs_10%25FDR_colouredBy_ES.inter.bb
+bigDataUrl https://raw.githubusercontent.com/radinagg/UCSC_trackhub/master/hg19/arc_hg19_sig_EP_pairs_10%25FDR_colouredBy_ES.inter.bb
 shortLabel hg19 sig E-P pairs
 longLabel Sig E-P pairs (coloured by ES)
 visibility full
 type bigInteract
 
 track hg19_sig_EP_pairs_with3Dcontact
-bigDataUrl https://raw.githubusercontent.com/radinagg/UCSC_trackhub/master/hg19/hg19_sig_EP_pairs_10%25FDR_colouredBy_ES_filteredByContactScore.inter.bb
+bigDataUrl https://raw.githubusercontent.com/radinagg/UCSC_trackhub/master/hg19/arc_hg19_sig_EP_pairs_10%25FDR_colouredBy_ES_filteredByContactScore.inter.bb
 shortLabel hg19 sig E-P pairs with 3D contact
 longLabel Sig E-P pairs supported by 3D contact (coloured by ES) 
 visibility full
 type bigInteract
 
 track MicroC_hESC
-bigDataUrl https://raw.githubusercontent.com/radinagg/UCSC_trackhub/master/hg19/hg19_sig_EP_pairs_10%25FDR_colouredBy_IF_hESC.inter.bb
+bigDataUrl https://raw.githubusercontent.com/radinagg/UCSC_trackhub/master/hg19/arc_hg19_sig_EP_pairs_10%25FDR_colouredBy_hESC_KRnorm_contact.inter.bb
 shortLabel Micro-C H1-hESC
-longLabel Sig E-P pairs (coloured by 3D contact; hESC)
+longLabel Sig E-P pairs (coloured by 3D contact in hESC)
 visibility hide
 type bigInteract
 
 track MicroC_HFF
-bigDataUrl https://raw.githubusercontent.com/radinagg/UCSC_trackhub/master/hg19/hg19_sig_EP_pairs_10%25FDR_colouredBy_IF_HFF.inter.bb
+bigDataUrl https://raw.githubusercontent.com/radinagg/UCSC_trackhub/master/hg19/arc_hg19_sig_EP_pairs_10%25FDR_colouredBy_HFF_KRnorm_contact.inter.bb
 shortLabel Micro-C HFF
-longLabel Sig E-P pairs (coloured by 3D contact; HFF)
+longLabel Sig E-P pairs (coloured by 3D contact in HFF)
 visibility hide
 type bigInteract
